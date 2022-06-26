@@ -57,7 +57,7 @@ class AutoRoom(
     }
     extra_channel_name_change_delay = 4
 
-    perms_public = {"view_channel": True, "connect": True, "send_messages": True}
+    perms_public = {"view_channel": True, "connect": True, "send_messages": False}
     perms_locked = {"view_channel": True, "connect": False, "send_messages": False}
     perms_private = {"view_channel": False, "connect": False, "send_messages": False}
 
